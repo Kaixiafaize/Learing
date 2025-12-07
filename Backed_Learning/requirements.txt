@@ -1,0 +1,20 @@
+# 核心框架
+fastapi==0.95.1
+sqlmodel==0.0.11
+uvicorn==0.22.0
+
+# 然后安装数据库相关
+alembic==1.10.2
+redis==4.5.4
+psycopg2-binary==2.9.5
+
+# 再安装安全相关
+python-jose==3.3.0
+passlib==1.7.4
+
+# 环境变量相关
+dotenv==0.21.1
+
+# 测试相关
+pytest==7.3.1
+pytest-cov==4.0.0
